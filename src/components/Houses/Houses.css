@@ -1,0 +1,61 @@
+.options {
+  padding-top: 15px;
+  padding-left: 20px;
+  display: flex;
+  align-items: baseline;
+}
+.options h2 {
+  font-size: 18px;
+}
+
+.houses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.house-card {
+  /* border: 1px solid #e0e0e0; */
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+/* 
+.house-card:hover {
+  transform: scale(1.02);
+} */
+
+.house-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.house-info {
+  padding: 15px;
+}
+
+.house-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.house-price {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #ff385c; /* Airbnb pinkish */
+}
+
+.house-stars {
+  font-size: 0.9rem;
+  color: #717171;
+}
+.house-link {
+  text-decoration: none;
+  color: black;
+}
