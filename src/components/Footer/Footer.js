@@ -9,6 +9,7 @@ export default function Footer() {
         <div className="footer-column">
           <h4>About</h4>
           <ul>
+              <li>added info<li>
             <li>How Airbnb works</li>
             <li>Newsroom</li>
             <li>Investors</li>
