@@ -143,6 +143,15 @@ const Header = () => {
               <div className="search-icon-container display-center">
                 <SearchIcon className="search-icon" />
               </div>
+                <div>
+                <h1 ClassName=`specials` id=`h1`>
+                EASTR FAMILY SPECIAL
+                </h1>
+                <h2>
+                
+                </h2>
+                
+                </div>
             </div>
           </div>
         </div>
